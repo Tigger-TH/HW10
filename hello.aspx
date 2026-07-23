@@ -50,7 +50,7 @@
 
       <div class="server-info-line">
         <p>🕒 เวลาปัจจุบันของเซิร์ฟเวอร์ (Server DateTime): <strong><%= DateTime.Now %></strong></p>
-        <p>🌐 IP ของผู้เข้าชม (Request.UserHostAddress หรือ CF-Connecting-IP ถ้าเข้าผ่าน Cloudflare): <strong><%= GetClientIp() %></strong></p>
+        <p>🌐 IP ของผู้เข้าชม : <strong><%= GetClientIp() %></strong></p>
       </div>
     </div>
   </section>
